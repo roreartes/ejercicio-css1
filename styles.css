@@ -1,0 +1,38 @@
+
+
+body{
+    width: 600px;
+    margin: auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+img{
+    width: 100px;
+    display: block;
+    margin: auto; 
+    size: 2em;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+article{
+    text-align: center;
+    font-size: 13px;
+
+}
+
+.parrafo-final{
+    text-align: center;
+    font-size: 11px;
+}
+
+article, .parrafo-final{
+    color: grey;
+}
+
+
+
+
+
