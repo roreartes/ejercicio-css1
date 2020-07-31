@@ -1,41 +1,59 @@
 
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
 
 body{
-    width: 600px;
-    margin: auto;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    font-family: 'Poppins', sans-serif;
+   }
 
-img{
+   .main-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .logo-wrapper {
+    width: 100%;
+  }
+  
+
+.logo-wrapper .logo{
     width: 100px;
-    display: block;
-    margin: auto; 
-    size: 2em;
+    margin: 0 auto;
+    display: block;    
 }
-h1{
+
+.mail-title{
     text-align: center;
-    font-size: 35px;
-    font-weight: bold;
+    padding: 0 30px;
 }
 
-article{
-    text-align: center;
-    font-size: 13px;
+.mail-body {
+    background-color: #f8f8ff;
+    font-weight: 300;
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align: justify;
+  }
 
-}
+  .mail-body p {
+    margin: 0;
+  }
 
-.parrafo-final{
-    margin-left: 58px;
-    font-size: 11px;
-}
+  .mail-body .link {
+    color: #b50efd;
+    font-weight: 500;
+    margin: 15px 0;
+    display: inline-block;
+  }
 
-article, .parrafo-final{
-    color: grey;
-}
 
-a{
-    color: magenta;
-    text-align: left;
-}
+  .mail-footer {
+    font-weight: 300;
+    padding: 0 30px 30px;
+  }
+
+
 
 
 
